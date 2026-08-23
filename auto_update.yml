@@ -1,0 +1,49 @@
+name: Daily Lottery Update
+
+on:
+  schedule:
+    # 每天台灣時間 20:50 執行 (20:50 - 8小時 = 12:50 UTC)
+    - cron: '50 12 * * *'
+  workflow_dispatch: # 允許手動在 GitHub 網頁上觸發執行
+
+permissions:
+  contents: write # 賦予寫入權限以更新 CSV 與 JSON 檔案
+
+jobs:
+  update-lottery:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 檢出專案程式碼
+      uses: actions/checkout@v4
+
+    - name: 設定 Python 環境
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip' # 快取 pip 依賴以加快速度
+
+    - name: 安裝必要依賴
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests python-docx
+
+    - name: 執行自動更新腳本
+      run: |
+        python scripts/auto_update_539.py
+
+    - name: 提交更新並推送到 GitHub
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 檢查是否有檔案變更 (CSV, data.json, 以及 md/docx 報告)
+        git add 2026/今彩539_2026.csv webapp/data.json *539分析.md *539分析.docx || true
+        
+        if git diff --cached --quiet; then
+          echo "沒有發現新開獎數據，無需更新。"
+        else
+          git commit -m "自動更新：開獎數據與預測分析報告 [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+          echo "數據已成功更新並推送至 GitHub Pages。"
+        fi
