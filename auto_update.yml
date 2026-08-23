@@ -2,8 +2,11 @@ name: Daily Lottery Update
 
 on:
   schedule:
-    # 每天台灣時間 20:50 執行 (20:50 - 8小時 = 12:50 UTC)
-    - cron: '50 12 * * *'
+    # 每天晚上台灣時間 21:15, 21:30, 21:45, 22:00 執行，以防台彩 API 延遲更新
+    - cron: '15 13 * * *'
+    - cron: '30 13 * * *'
+    - cron: '45 13 * * *'
+    - cron: '00 14 * * *'
   workflow_dispatch: # 允許手動在 GitHub 網頁上觸發執行
 
 permissions:
