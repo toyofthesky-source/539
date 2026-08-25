@@ -7,9 +7,10 @@ def load_data():
     """
     載入 2025 與 2026 大樂透開獎數據並進行整合排序
     """
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     csv_files = [
-        r"d:\統計\2025\大樂透_2025.csv",
-        r"d:\統計\2026\大樂透_2026.csv"
+        os.path.join(base_dir, "2025", "大樂透_2025.csv"),
+        os.path.join(base_dir, "2026", "大樂透_2026.csv")
     ]
     
     all_draws = []
@@ -436,7 +437,8 @@ def generate_docx(latest_draw, selected_nums, threshold, top_recommended, scores
     import datetime
     now = datetime.datetime.now()
     file_prefix = f"{now.month}{now.day:02d}"
-    docx_path = rf"d:\統計\{file_prefix}大樂透分析.docx"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    docx_path = os.path.join(base_dir, f"{file_prefix}大樂透分析.docx")
     try:
         doc.save(docx_path)
         print(f"成功生成 Word 報告：{docx_path}")
@@ -483,7 +485,8 @@ def generate_report(draws, threshold=2):
     import datetime
     now = datetime.datetime.now()
     file_prefix = f"{now.month}{now.day:02d}"
-    report_path = rf"d:\統計\{file_prefix}大樂透分析.md"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    report_path = os.path.join(base_dir, f"{file_prefix}大樂透分析.md")
     
     with open(report_path, mode='w', encoding='utf-8') as f:
         f.write(f"# 大樂透數據分析與預測報告\n\n")

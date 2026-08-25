@@ -1,4 +1,5 @@
 import os
+import sys
 import csv
 import datetime
 import requests
@@ -224,7 +225,7 @@ def run_report_generator():
     print("觸發 539_analyzer.py 編譯最新報告中...")
     try:
         result = subprocess.run(
-            ["python", analyzer_path],
+            [sys.executable, analyzer_path],
             capture_output=True,
             text=True,
             encoding='utf-8',
