@@ -1,0 +1,74 @@
+name: Daily Lottery Update
+
+on:
+  schedule:
+    # 每天晚上台灣時間 21:30, 22:00, 22:30, 23:00 執行，每半小時一次以防 API 延遲
+    - cron: '30 13 * * *'
+    - cron: '00 14 * * *'
+    - cron: '30 14 * * *'
+    - cron: '00 15 * * *'
+  workflow_dispatch: # 允許手動在 GitHub 網頁上觸發執行
+
+permissions:
+  contents: write # 賦予寫入權限以更新 CSV 與 JSON 檔案
+  pages: write    # 賦予部署 Pages 的權限
+  id-token: write # 部署 Pages 需使用的 OIDC 驗證權限
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-lottery:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 檢出專案程式碼
+      uses: actions/checkout@v4
+
+    - name: 設定 Python 環境
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip' # 快取 pip 依賴以加快速度
+
+    - name: 安裝必要依賴
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests python-docx
+
+    - name: 執行自動更新腳本
+      run: |
+        python scripts/auto_update_539.py
+
+    - name: 提交更新並推送到 GitHub
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 檢查是否有檔案變更 (CSV, data.json, sw.js, 以及 md/docx 報告)
+        git add 2026/今彩539_2026.csv webapp/data.json webapp/sw.js *539分析.md *539分析.docx || true
+        
+        if git diff --cached --quiet; then
+          echo "沒有發現新開獎數據，無需更新。"
+        else
+          git commit -m "自動更新：開獎數據與預測分析報告 [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git pull --rebase origin main || true
+          git push
+          echo "數據已成功更新並推送至 GitHub 儲存庫。"
+        fi
+
+    - name: 設定 Pages
+      uses: actions/configure-pages@v4
+
+    - name: 上傳 Pages 產物
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'webapp' # 僅將 webapp 目錄上傳為發布產物
+
+    - name: 部署至 GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
