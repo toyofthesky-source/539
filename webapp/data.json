@@ -1,84 +1,55 @@
 {
-  "update_time": "2026-08-27 23:00:00",
+  "update_time": "2026-08-28 23:06:34",
   "latest_draw": {
-    "period": 115000208,
-    "date": "2026/8/27",
+    "period": 115000209,
+    "date": "2026/8/28",
     "nums": [
       "02",
-      "03",
-      "07",
-      "25",
-      "33"
+      "04",
+      "09",
+      "12",
+      "36"
     ]
   },
   "threshold": 2,
   "hot_nums": [
     "07",
-    "23",
     "12",
+    "23",
     "19",
     "32",
     "35",
-    "05",
-    "29"
+    "09",
+    "16"
   ],
   "cold_nums": [
-    "31",
-    "33",
+    "36",
     "01",
     "26",
     "37",
     "03",
     "20",
+    "27",
     "15"
   ],
   "recommendations": [
     {
       "rank": 1,
-      "num": "24",
-      "score": 1.0,
-      "drag_count": 13,
-      "current_gap": 16,
-      "avg_gap": 5.9,
+      "num": "31",
+      "score": 0.82,
+      "drag_count": 9,
+      "current_gap": 17,
+      "avg_gap": 5.8,
       "tags": [
         "遺漏值偏高"
       ]
     },
     {
       "rank": 2,
-      "num": "37",
-      "score": 0.79,
-      "drag_count": 11,
-      "current_gap": 10,
-      "avg_gap": 7.2,
-      "tags": [
-        "近期冷門"
-      ]
-    },
-    {
-      "rank": 3,
-      "num": "28",
-      "score": 0.76,
-      "drag_count": 11,
-      "current_gap": 8,
-      "avg_gap": 6.3,
-      "tags": []
-    },
-    {
-      "rank": 4,
-      "num": "27",
-      "score": 0.72,
-      "drag_count": 11,
-      "current_gap": 6,
-      "avg_gap": 5.6,
-      "tags": []
-    },
-    {
-      "rank": 5,
       "num": "15",
-      "score": 0.68,
-      "drag_count": 6,
-      "current_gap": 38,
+      "score": 0.72,
+      "drag_count": 7,
+      "current_gap": 39,
       "avg_gap": 7.1,
       "tags": [
         "近期冷門",
@@ -86,147 +57,120 @@
       ]
     },
     {
+      "rank": 3,
+      "num": "16",
+      "score": 0.72,
+      "drag_count": 7,
+      "current_gap": 16,
+      "avg_gap": 7.5,
+      "tags": [
+        "近期熱門",
+        "遺漏值偏高"
+      ]
+    },
+    {
+      "rank": 4,
+      "num": "24",
+      "score": 0.72,
+      "drag_count": 7,
+      "current_gap": 17,
+      "avg_gap": 5.9,
+      "tags": [
+        "遺漏值偏高"
+      ]
+    },
+    {
+      "rank": 5,
+      "num": "06",
+      "score": 0.68,
+      "drag_count": 9,
+      "current_gap": 8,
+      "avg_gap": 6.0,
+      "tags": []
+    },
+    {
       "rank": 6,
-      "num": "21",
-      "score": 0.66,
-      "drag_count": 13,
-      "current_gap": 2,
-      "avg_gap": 6.3,
+      "num": "22",
+      "score": 0.67,
+      "drag_count": 8,
+      "current_gap": 10,
+      "avg_gap": 6.7,
       "tags": []
     },
     {
       "rank": 7,
-      "num": "14",
-      "score": 0.65,
-      "drag_count": 10,
-      "current_gap": 6,
-      "avg_gap": 6.5,
-      "tags": []
+      "num": "27",
+      "score": 0.67,
+      "drag_count": 9,
+      "current_gap": 7,
+      "avg_gap": 5.6,
+      "tags": [
+        "近期冷門"
+      ]
     },
     {
       "rank": 8,
-      "num": "29",
+      "num": "07",
       "score": 0.64,
-      "drag_count": 11,
-      "current_gap": 4,
-      "avg_gap": 5.9,
+      "drag_count": 13,
+      "current_gap": 1,
+      "avg_gap": 5.3,
       "tags": [
         "近期熱門"
       ]
     },
     {
       "rank": 9,
-      "num": "22",
-      "score": 0.64,
-      "drag_count": 8,
-      "current_gap": 9,
-      "avg_gap": 6.7,
-      "tags": []
+      "num": "37",
+      "score": 0.63,
+      "drag_count": 7,
+      "current_gap": 11,
+      "avg_gap": 7.2,
+      "tags": [
+        "近期冷門",
+        "遺漏值偏高"
+      ]
     },
     {
       "rank": 10,
-      "num": "16",
-      "score": 0.63,
-      "drag_count": 5,
-      "current_gap": 15,
-      "avg_gap": 7.5,
+      "num": "23",
+      "score": 0.62,
+      "drag_count": 12,
+      "current_gap": 2,
+      "avg_gap": 6.5,
       "tags": [
-        "遺漏值偏高"
+        "近期熱門"
       ]
     }
   ],
   "pure_drag": [
     {
       "rank": 1,
-      "num": "21",
+      "num": "07",
       "count": 13
     },
     {
-      "rank": 1,
-      "num": "24",
-      "count": 13
+      "rank": 2,
+      "num": "02",
+      "count": 12
     },
     {
-      "rank": 3,
-      "num": "03",
-      "count": 11
+      "rank": 2,
+      "num": "12",
+      "count": 12
     },
     {
-      "rank": 3,
-      "num": "19",
-      "count": 11
+      "rank": 2,
+      "num": "23",
+      "count": 12
     },
     {
-      "rank": 3,
-      "num": "25",
-      "count": 11
-    },
-    {
-      "rank": 3,
-      "num": "27",
-      "count": 11
-    },
-    {
-      "rank": 3,
-      "num": "28",
-      "count": 11
-    },
-    {
-      "rank": 3,
-      "num": "29",
-      "count": 11
-    },
-    {
-      "rank": 3,
-      "num": "37",
-      "count": 11
+      "rank": 2,
+      "num": "36",
+      "count": 12
     }
   ],
   "matches": [
-    {
-      "period": 115000201,
-      "date": "2026/8/19",
-      "nums": [
-        "02",
-        "06",
-        "07",
-        "32",
-        "38"
-      ],
-      "next_nums": [
-        "04",
-        "14",
-        "27",
-        "32",
-        "34"
-      ],
-      "intersect": [
-        "02",
-        "07"
-      ]
-    },
-    {
-      "period": 115000197,
-      "date": "2026/8/14",
-      "nums": [
-        "07",
-        "19",
-        "21",
-        "25",
-        "34"
-      ],
-      "next_nums": [
-        "12",
-        "14",
-        "21",
-        "35",
-        "37"
-      ],
-      "intersect": [
-        "07",
-        "25"
-      ]
-    },
     {
       "period": 115000189,
       "date": "2026/8/5",
@@ -246,29 +190,29 @@
       ],
       "intersect": [
         "02",
-        "25"
+        "04"
       ]
     },
     {
-      "period": 115000153,
-      "date": "2026/6/24",
+      "period": 115000185,
+      "date": "2026/7/31",
       "nums": [
-        "03",
-        "17",
-        "21",
-        "32",
-        "33"
+        "01",
+        "09",
+        "12",
+        "25",
+        "26"
       ],
       "next_nums": [
         "06",
-        "13",
-        "21",
-        "29",
-        "34"
+        "11",
+        "18",
+        "22",
+        "29"
       ],
       "intersect": [
-        "03",
-        "33"
+        "09",
+        "12"
       ]
     },
     {
@@ -290,51 +234,51 @@
       ],
       "intersect": [
         "02",
-        "25"
+        "36"
       ]
     },
     {
-      "period": 115000149,
-      "date": "2026/6/19",
+      "period": 115000145,
+      "date": "2026/6/15",
       "nums": [
-        "01",
+        "12",
+        "16",
+        "24",
+        "28",
+        "36"
+      ],
+      "next_nums": [
         "05",
-        "07",
-        "13",
-        "25"
-      ],
-      "next_nums": [
-        "04",
-        "11",
-        "24",
+        "17",
+        "23",
         "25",
-        "31"
+        "29"
       ],
       "intersect": [
-        "07",
-        "25"
+        "12",
+        "36"
       ]
     },
     {
-      "period": 115000135,
-      "date": "2026/6/3",
+      "period": 115000144,
+      "date": "2026/6/13",
       "nums": [
-        "02",
-        "08",
-        "17",
-        "25",
-        "38"
+        "04",
+        "05",
+        "06",
+        "34",
+        "36"
       ],
       "next_nums": [
-        "02",
-        "08",
+        "12",
+        "16",
         "24",
-        "29",
-        "35"
+        "28",
+        "36"
       ],
       "intersect": [
-        "02",
-        "25"
+        "04",
+        "36"
       ]
     },
     {
@@ -356,108 +300,152 @@
       ],
       "intersect": [
         "02",
-        "03"
+        "04"
       ]
     },
     {
-      "period": 115000129,
-      "date": "2026/5/27",
+      "period": 115000130,
+      "date": "2026/5/28",
       "nums": [
-        "02",
-        "03",
-        "18",
-        "19",
-        "21"
-      ],
-      "next_nums": [
         "06",
         "09",
         "12",
         "19",
         "31"
       ],
+      "next_nums": [
+        "12",
+        "15",
+        "20",
+        "34",
+        "35"
+      ],
       "intersect": [
-        "02",
-        "03"
+        "09",
+        "12"
       ]
     },
     {
-      "period": 115000128,
-      "date": "2026/5/26",
+      "period": 115000127,
+      "date": "2026/5/25",
       "nums": [
+        "05",
+        "06",
+        "12",
+        "36",
+        "37"
+      ],
+      "next_nums": [
         "02",
         "07",
         "11",
         "14",
         "37"
       ],
+      "intersect": [
+        "12",
+        "36"
+      ]
+    },
+    {
+      "period": 115000124,
+      "date": "2026/5/21",
+      "nums": [
+        "09",
+        "25",
+        "28",
+        "34",
+        "36"
+      ],
       "next_nums": [
+        "04",
+        "08",
+        "15",
+        "16",
+        "37"
+      ],
+      "intersect": [
+        "09",
+        "36"
+      ]
+    },
+    {
+      "period": 115000117,
+      "date": "2026/5/13",
+      "nums": [
         "02",
-        "03",
+        "06",
+        "07",
+        "09",
+        "23"
+      ],
+      "next_nums": [
+        "08",
         "18",
-        "19",
-        "21"
+        "28",
+        "35",
+        "39"
       ],
       "intersect": [
         "02",
-        "07"
+        "09"
       ]
     }
   ],
   "full_table": [
     {
       "num": "01",
-      "drag_count": 1,
+      "drag_count": 4,
       "count_30": 2,
-      "current_gap": 15,
+      "current_gap": 16,
       "avg_gap": 7.6,
       "max_gap": 44
     },
     {
       "num": "02",
-      "drag_count": 7,
-      "count_30": 3,
+      "drag_count": 12,
+      "count_30": 4,
       "current_gap": 0,
-      "avg_gap": 7.2,
+      "avg_gap": 7.1,
       "max_gap": 37
     },
     {
       "num": "03",
-      "drag_count": 11,
+      "drag_count": 4,
       "count_30": 2,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 7.2,
       "max_gap": 29
     },
     {
       "num": "04",
-      "drag_count": 8,
-      "count_30": 3,
-      "current_gap": 6,
+      "drag_count": 6,
+      "count_30": 4,
+      "current_gap": 0,
       "avg_gap": 6.1,
       "max_gap": 28
     },
     {
       "num": "05",
       "drag_count": 5,
-      "count_30": 6,
-      "current_gap": 8,
+      "count_30": 5,
+      "current_gap": 9,
       "avg_gap": 6.7,
       "max_gap": 33
     },
     {
       "num": "06",
-      "drag_count": 8,
+      "drag_count": 9,
       "count_30": 4,
-      "current_gap": 7,
+      "current_gap": 8,
       "avg_gap": 6.0,
       "max_gap": 40
     },
     {
       "num": "07",
-      "drag_count": 8,
+      "drag_count": 13,
       "count_30": 9,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 5.3,
       "max_gap": 32
     },
@@ -465,111 +453,111 @@
       "num": "08",
       "drag_count": 10,
       "count_30": 4,
-      "current_gap": 2,
+      "current_gap": 3,
       "avg_gap": 5.2,
       "max_gap": 34
     },
     {
       "num": "09",
-      "drag_count": 6,
-      "count_30": 5,
-      "current_gap": 3,
-      "avg_gap": 7.6,
+      "drag_count": 7,
+      "count_30": 6,
+      "current_gap": 0,
+      "avg_gap": 7.5,
       "max_gap": 37
     },
     {
       "num": "10",
-      "drag_count": 4,
+      "drag_count": 6,
       "count_30": 3,
-      "current_gap": 3,
+      "current_gap": 4,
       "avg_gap": 7.4,
       "max_gap": 40
     },
     {
       "num": "11",
-      "drag_count": 6,
+      "drag_count": 4,
       "count_30": 5,
-      "current_gap": 5,
+      "current_gap": 6,
       "avg_gap": 5.6,
       "max_gap": 22
     },
     {
       "num": "12",
-      "drag_count": 7,
-      "count_30": 7,
-      "current_gap": 5,
+      "drag_count": 12,
+      "count_30": 8,
+      "current_gap": 0,
       "avg_gap": 5.4,
       "max_gap": 29
     },
     {
       "num": "13",
-      "drag_count": 10,
+      "drag_count": 7,
       "count_30": 3,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 7.5,
       "max_gap": 32
     },
     {
       "num": "14",
-      "drag_count": 10,
+      "drag_count": 7,
       "count_30": 3,
-      "current_gap": 6,
+      "current_gap": 7,
       "avg_gap": 6.5,
       "max_gap": 53
     },
     {
       "num": "15",
-      "drag_count": 6,
+      "drag_count": 7,
       "count_30": 0,
-      "current_gap": 38,
+      "current_gap": 39,
       "avg_gap": 7.1,
       "max_gap": 34
     },
     {
       "num": "16",
-      "drag_count": 5,
+      "drag_count": 7,
       "count_30": 5,
-      "current_gap": 15,
+      "current_gap": 16,
       "avg_gap": 7.5,
       "max_gap": 34
     },
     {
       "num": "17",
       "drag_count": 6,
-      "count_30": 4,
-      "current_gap": 12,
+      "count_30": 3,
+      "current_gap": 13,
       "avg_gap": 8.5,
       "max_gap": 57
     },
     {
       "num": "18",
-      "drag_count": 9,
+      "drag_count": 8,
       "count_30": 3,
-      "current_gap": 5,
+      "current_gap": 6,
       "avg_gap": 7.3,
       "max_gap": 35
     },
     {
       "num": "19",
-      "drag_count": 11,
+      "drag_count": 7,
       "count_30": 7,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.8,
       "max_gap": 47
     },
     {
       "num": "20",
-      "drag_count": 10,
+      "drag_count": 5,
       "count_30": 2,
-      "current_gap": 5,
+      "current_gap": 6,
       "avg_gap": 8.1,
       "max_gap": 45
     },
     {
       "num": "21",
-      "drag_count": 13,
+      "drag_count": 7,
       "count_30": 4,
-      "current_gap": 2,
+      "current_gap": 3,
       "avg_gap": 6.3,
       "max_gap": 41
     },
@@ -577,63 +565,63 @@
       "num": "22",
       "drag_count": 8,
       "count_30": 3,
-      "current_gap": 9,
+      "current_gap": 10,
       "avg_gap": 6.7,
       "max_gap": 32
     },
     {
       "num": "23",
-      "drag_count": 6,
+      "drag_count": 12,
       "count_30": 8,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.5,
       "max_gap": 25
     },
     {
       "num": "24",
-      "drag_count": 13,
+      "drag_count": 7,
       "count_30": 3,
-      "current_gap": 16,
+      "current_gap": 17,
       "avg_gap": 5.9,
       "max_gap": 22
     },
     {
       "num": "25",
-      "drag_count": 11,
+      "drag_count": 4,
       "count_30": 4,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 6.2,
       "max_gap": 35
     },
     {
       "num": "26",
-      "drag_count": 7,
+      "drag_count": 9,
       "count_30": 2,
-      "current_gap": 3,
+      "current_gap": 4,
       "avg_gap": 7.0,
       "max_gap": 31
     },
     {
       "num": "27",
-      "drag_count": 11,
-      "count_30": 3,
-      "current_gap": 6,
+      "drag_count": 9,
+      "count_30": 2,
+      "current_gap": 7,
       "avg_gap": 5.6,
       "max_gap": 26
     },
     {
       "num": "28",
-      "drag_count": 11,
+      "drag_count": 6,
       "count_30": 3,
-      "current_gap": 8,
+      "current_gap": 9,
       "avg_gap": 6.3,
       "max_gap": 24
     },
     {
       "num": "29",
-      "drag_count": 11,
-      "count_30": 5,
-      "current_gap": 4,
+      "drag_count": 7,
+      "count_30": 4,
+      "current_gap": 5,
       "avg_gap": 5.9,
       "max_gap": 34
     },
@@ -641,79 +629,79 @@
       "num": "30",
       "drag_count": 5,
       "count_30": 3,
-      "current_gap": 2,
+      "current_gap": 3,
       "avg_gap": 8.3,
       "max_gap": 43
     },
     {
       "num": "31",
-      "drag_count": 5,
+      "drag_count": 9,
       "count_30": 2,
-      "current_gap": 16,
+      "current_gap": 17,
       "avg_gap": 5.8,
       "max_gap": 21
     },
     {
       "num": "32",
-      "drag_count": 8,
+      "drag_count": 6,
       "count_30": 7,
-      "current_gap": 6,
+      "current_gap": 7,
       "avg_gap": 7.5,
       "max_gap": 40
     },
     {
       "num": "33",
-      "drag_count": 5,
+      "drag_count": 6,
       "count_30": 2,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 9.7,
       "max_gap": 42
     },
     {
       "num": "34",
-      "drag_count": 7,
+      "drag_count": 6,
       "count_30": 3,
-      "current_gap": 4,
+      "current_gap": 5,
       "avg_gap": 7.0,
       "max_gap": 33
     },
     {
       "num": "35",
-      "drag_count": 6,
+      "drag_count": 7,
       "count_30": 7,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.4,
       "max_gap": 32
     },
     {
       "num": "36",
-      "drag_count": 5,
+      "drag_count": 12,
       "count_30": 2,
-      "current_gap": 25,
-      "avg_gap": 6.2,
+      "current_gap": 0,
+      "avg_gap": 6.4,
       "max_gap": 35
     },
     {
       "num": "37",
-      "drag_count": 11,
+      "drag_count": 7,
       "count_30": 2,
-      "current_gap": 10,
+      "current_gap": 11,
       "avg_gap": 7.2,
       "max_gap": 33
     },
     {
       "num": "38",
-      "drag_count": 8,
+      "drag_count": 7,
       "count_30": 4,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.9,
       "max_gap": 32
     },
     {
       "num": "39",
-      "drag_count": 6,
+      "drag_count": 5,
       "count_30": 3,
-      "current_gap": 8,
+      "current_gap": 9,
       "avg_gap": 8.3,
       "max_gap": 46
     }
