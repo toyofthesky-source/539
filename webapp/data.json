@@ -1,31 +1,31 @@
 {
-  "update_time": "2026-09-21 18:50:01",
+  "update_time": "2026-09-22 17:40:43",
   "latest_draw": {
-    "period": 115000229,
-    "date": "2026/9/21",
+    "period": 115000230,
+    "date": "2026/9/22",
     "nums": [
-      "04",
+      "08",
+      "13",
       "20",
-      "22",
-      "30",
-      "38"
+      "31",
+      "34"
     ]
   },
   "threshold": 2,
   "hot_nums": [
     "02",
     "04",
+    "34",
     "12",
     "30",
     "23",
-    "06",
-    "38",
-    "34"
+    "08",
+    "38"
   ],
   "cold_nums": [
-    "11",
-    "20",
-    "31",
+    "05",
+    "39",
+    "28",
     "21",
     "36",
     "16",
@@ -35,50 +35,55 @@
   "recommendations": [
     {
       "rank": 1,
-      "num": "14",
-      "score": 0.79,
-      "drag_count": 12,
-      "current_gap": 9,
-      "avg_gap": 6.6,
-      "tags": []
+      "num": "33",
+      "score": 0.81,
+      "drag_count": 11,
+      "current_gap": 19,
+      "avg_gap": 9.3,
+      "tags": [
+        "遺漏值偏高"
+      ]
     },
     {
       "rank": 2,
+      "num": "36",
+      "score": 0.78,
+      "drag_count": 10,
+      "current_gap": 21,
+      "avg_gap": 6.4,
+      "tags": [
+        "近期冷門",
+        "遺漏值偏高"
+      ]
+    },
+    {
+      "rank": 3,
       "num": "09",
-      "score": 0.79,
+      "score": 0.74,
       "drag_count": 9,
-      "current_gap": 20,
+      "current_gap": 21,
       "avg_gap": 7.5,
       "tags": [
         "遺漏值偏高"
       ]
     },
     {
-      "rank": 3,
-      "num": "18",
-      "score": 0.79,
-      "drag_count": 9,
-      "current_gap": 15,
-      "avg_gap": 7.2,
+      "rank": 4,
+      "num": "14",
+      "score": 0.72,
+      "drag_count": 11,
+      "current_gap": 10,
+      "avg_gap": 6.6,
       "tags": [
         "遺漏值偏高"
       ]
     },
     {
-      "rank": 4,
-      "num": "08",
-      "score": 0.72,
-      "drag_count": 14,
-      "current_gap": 3,
-      "avg_gap": 5.1,
-      "tags": []
-    },
-    {
       "rank": 5,
       "num": "16",
       "score": 0.7,
-      "drag_count": 7,
-      "current_gap": 16,
+      "drag_count": 8,
+      "current_gap": 17,
       "avg_gap": 7.7,
       "tags": [
         "近期冷門",
@@ -87,31 +92,34 @@
     },
     {
       "rank": 6,
-      "num": "10",
+      "num": "18",
       "score": 0.7,
       "drag_count": 8,
-      "current_gap": 13,
-      "avg_gap": 7.3,
+      "current_gap": 16,
+      "avg_gap": 7.2,
       "tags": [
         "遺漏值偏高"
       ]
     },
     {
       "rank": 7,
-      "num": "25",
+      "num": "21",
       "score": 0.66,
-      "drag_count": 10,
-      "current_gap": 7,
-      "avg_gap": 6.0,
-      "tags": []
+      "drag_count": 7,
+      "current_gap": 24,
+      "avg_gap": 6.3,
+      "tags": [
+        "近期冷門",
+        "遺漏值偏高"
+      ]
     },
     {
       "rank": 8,
-      "num": "36",
-      "score": 0.61,
-      "drag_count": 5,
-      "current_gap": 20,
-      "avg_gap": 6.4,
+      "num": "05",
+      "score": 0.63,
+      "drag_count": 8,
+      "current_gap": 11,
+      "avg_gap": 6.7,
       "tags": [
         "近期冷門",
         "遺漏值偏高"
@@ -119,288 +127,300 @@
     },
     {
       "rank": 9,
-      "num": "28",
+      "num": "10",
       "score": 0.61,
-      "drag_count": 7,
-      "current_gap": 10,
-      "avg_gap": 6.4,
+      "drag_count": 6,
+      "current_gap": 14,
+      "avg_gap": 7.3,
       "tags": [
         "遺漏值偏高"
       ]
     },
     {
       "rank": 10,
-      "num": "05",
-      "score": 0.56,
-      "drag_count": 6,
-      "current_gap": 10,
-      "avg_gap": 6.7,
-      "tags": []
+      "num": "28",
+      "score": 0.61,
+      "drag_count": 7,
+      "current_gap": 11,
+      "avg_gap": 6.4,
+      "tags": [
+        "近期冷門",
+        "遺漏值偏高"
+      ]
     }
   ],
   "pure_drag": [
     {
       "rank": 1,
       "num": "08",
-      "count": 14
+      "count": 16
     },
     {
       "rank": 2,
-      "num": "14",
+      "num": "12",
       "count": 12
     },
     {
-      "rank": 3,
-      "num": "13",
-      "count": 10
+      "rank": 2,
+      "num": "38",
+      "count": 12
     },
     {
-      "rank": 3,
-      "num": "25",
-      "count": 10
+      "rank": 4,
+      "num": "04",
+      "count": 11
     },
     {
-      "rank": 3,
-      "num": "27",
-      "count": 10
+      "rank": 4,
+      "num": "07",
+      "count": 11
     },
     {
-      "rank": 3,
-      "num": "34",
-      "count": 10
+      "rank": 4,
+      "num": "11",
+      "count": 11
+    },
+    {
+      "rank": 4,
+      "num": "14",
+      "count": 11
+    },
+    {
+      "rank": 4,
+      "num": "33",
+      "count": 11
     }
   ],
   "matches": [
     {
-      "period": 115000220,
-      "date": "2026/9/10",
+      "period": 115000226,
+      "date": "2026/9/17",
       "nums": [
-        "04",
-        "14",
-        "30",
-        "35",
-        "38"
+        "02",
+        "08",
+        "11",
+        "12",
+        "34"
       ],
       "next_nums": [
-        "12",
-        "15",
-        "23",
-        "25",
-        "27"
+        "02",
+        "03",
+        "06",
+        "24",
+        "34"
       ],
       "intersect": [
-        "04",
-        "30",
-        "38"
+        "08",
+        "34"
       ]
     },
     {
-      "period": 115000212,
-      "date": "2026/9/1",
+      "period": 115000225,
+      "date": "2026/9/16",
       "nums": [
-        "02",
-        "04",
-        "22",
-        "30",
-        "38"
+        "07",
+        "08",
+        "12",
+        "13",
+        "19"
       ],
       "next_nums": [
+        "02",
+        "08",
+        "11",
+        "12",
+        "34"
+      ],
+      "intersect": [
+        "08",
+        "13"
+      ]
+    },
+    {
+      "period": 115000213,
+      "date": "2026/9/2",
+      "nums": [
         "07",
         "08",
         "13",
         "16",
         "18"
       ],
-      "intersect": [
-        "04",
+      "next_nums": [
+        "18",
+        "19",
         "22",
-        "30",
-        "38"
+        "23",
+        "34"
+      ],
+      "intersect": [
+        "08",
+        "13"
       ]
     },
     {
-      "period": 115000199,
-      "date": "2026/8/17",
+      "period": 115000182,
+      "date": "2026/7/28",
       "nums": [
-        "19",
-        "22",
-        "27",
-        "28",
-        "38"
+        "05",
+        "08",
+        "13",
+        "23",
+        "31"
       ],
       "next_nums": [
         "05",
-        "06",
+        "14",
+        "32",
+        "33",
+        "36"
+      ],
+      "intersect": [
+        "08",
+        "13",
+        "31"
+      ]
+    },
+    {
+      "period": 115000175,
+      "date": "2026/7/20",
+      "nums": [
         "10",
-        "28",
+        "12",
+        "13",
+        "20",
+        "24"
+      ],
+      "next_nums": [
+        "12",
+        "19",
+        "27",
+        "37",
         "39"
       ],
       "intersect": [
-        "22",
-        "38"
+        "13",
+        "20"
       ]
     },
     {
-      "period": 115000189,
-      "date": "2026/8/5",
+      "period": 115000172,
+      "date": "2026/7/16",
       "nums": [
-        "02",
-        "04",
-        "22",
+        "13",
         "25",
-        "29"
+        "28",
+        "30",
+        "31"
       ],
       "next_nums": [
-        "03",
-        "09",
-        "16",
-        "24",
+        "10",
+        "12",
+        "28",
+        "29",
         "35"
       ],
       "intersect": [
-        "04",
-        "22"
-      ]
-    },
-    {
-      "period": 115000184,
-      "date": "2026/7/30",
-      "nums": [
-        "04",
-        "07",
-        "08",
-        "16",
-        "38"
-      ],
-      "next_nums": [
-        "01",
-        "09",
-        "12",
-        "25",
-        "26"
-      ],
-      "intersect": [
-        "04",
-        "38"
-      ]
-    },
-    {
-      "period": 115000148,
-      "date": "2026/6/18",
-      "nums": [
-        "09",
-        "20",
-        "27",
-        "28",
-        "30"
-      ],
-      "next_nums": [
-        "01",
-        "05",
-        "07",
         "13",
-        "25"
-      ],
-      "intersect": [
-        "20",
-        "30"
+        "31"
       ]
     },
     {
-      "period": 115000138,
-      "date": "2026/6/6",
-      "nums": [
-        "13",
-        "27",
-        "30",
-        "37",
-        "38"
-      ],
-      "next_nums": [
-        "08",
-        "14",
-        "17",
-        "18",
-        "28"
-      ],
-      "intersect": [
-        "30",
-        "38"
-      ]
-    },
-    {
-      "period": 115000134,
-      "date": "2026/6/2",
-      "nums": [
-        "07",
-        "12",
-        "22",
-        "26",
-        "30"
-      ],
-      "next_nums": [
-        "02",
-        "08",
-        "17",
-        "25",
-        "38"
-      ],
-      "intersect": [
-        "22",
-        "30"
-      ]
-    },
-    {
-      "period": 115000116,
-      "date": "2026/5/12",
+      "period": 115000160,
+      "date": "2026/7/2",
       "nums": [
         "01",
-        "04",
-        "12",
-        "22",
-        "26"
-      ],
-      "next_nums": [
-        "02",
         "06",
+        "08",
+        "13",
+        "30"
+      ],
+      "next_nums": [
         "07",
-        "09",
-        "23"
+        "11",
+        "31",
+        "36",
+        "37"
       ],
       "intersect": [
-        "04",
-        "22"
+        "08",
+        "13"
       ]
     },
     {
-      "period": 115000102,
-      "date": "2026/4/25",
+      "period": 115000154,
+      "date": "2026/6/25",
       "nums": [
-        "03",
-        "20",
+        "06",
+        "13",
         "21",
-        "22",
-        "33"
+        "29",
+        "34"
       ],
       "next_nums": [
         "08",
-        "18",
-        "20",
-        "23",
-        "27"
+        "10",
+        "14",
+        "26",
+        "36"
       ],
       "intersect": [
+        "13",
+        "34"
+      ]
+    },
+    {
+      "period": 115000143,
+      "date": "2026/6/12",
+      "nums": [
+        "06",
+        "08",
+        "18",
+        "29",
+        "31"
+      ],
+      "next_nums": [
+        "04",
+        "05",
+        "06",
+        "34",
+        "36"
+      ],
+      "intersect": [
+        "08",
+        "31"
+      ]
+    },
+    {
+      "period": 115000142,
+      "date": "2026/6/11",
+      "nums": [
+        "08",
+        "15",
         "20",
-        "22"
+        "29",
+        "31"
+      ],
+      "next_nums": [
+        "06",
+        "08",
+        "18",
+        "29",
+        "31"
+      ],
+      "intersect": [
+        "08",
+        "20",
+        "31"
       ]
     }
   ],
   "full_table": [
     {
       "num": "01",
-      "drag_count": 9,
+      "drag_count": 7,
       "count_30": 1,
-      "current_gap": 6,
+      "current_gap": 7,
       "avg_gap": 8.0,
       "max_gap": 44
     },
@@ -408,55 +428,55 @@
       "num": "02",
       "drag_count": 7,
       "count_30": 8,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.8,
       "max_gap": 37
     },
     {
       "num": "03",
-      "drag_count": 6,
+      "drag_count": 9,
       "count_30": 5,
-      "current_gap": 2,
+      "current_gap": 3,
       "avg_gap": 7.0,
       "max_gap": 29
     },
     {
       "num": "04",
-      "drag_count": 2,
+      "drag_count": 11,
       "count_30": 7,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 5.9,
       "max_gap": 28
     },
     {
       "num": "05",
-      "drag_count": 6,
-      "count_30": 3,
-      "current_gap": 10,
+      "drag_count": 8,
+      "count_30": 2,
+      "current_gap": 11,
       "avg_gap": 6.7,
       "max_gap": 33
     },
     {
       "num": "06",
-      "drag_count": 8,
-      "count_30": 6,
-      "current_gap": 2,
+      "drag_count": 10,
+      "count_30": 5,
+      "current_gap": 3,
       "avg_gap": 6.0,
       "max_gap": 40
     },
     {
       "num": "07",
-      "drag_count": 9,
+      "drag_count": 11,
       "count_30": 5,
-      "current_gap": 4,
+      "current_gap": 5,
       "avg_gap": 5.3,
       "max_gap": 32
     },
     {
       "num": "08",
-      "drag_count": 14,
-      "count_30": 6,
-      "current_gap": 3,
+      "drag_count": 16,
+      "count_30": 7,
+      "current_gap": 0,
       "avg_gap": 5.1,
       "max_gap": 34
     },
@@ -464,135 +484,135 @@
       "num": "09",
       "drag_count": 9,
       "count_30": 3,
-      "current_gap": 20,
+      "current_gap": 21,
       "avg_gap": 7.5,
       "max_gap": 37
     },
     {
       "num": "10",
-      "drag_count": 8,
-      "count_30": 5,
-      "current_gap": 13,
+      "drag_count": 6,
+      "count_30": 4,
+      "current_gap": 14,
       "avg_gap": 7.3,
       "max_gap": 40
     },
     {
       "num": "11",
-      "drag_count": 5,
+      "drag_count": 11,
       "count_30": 2,
-      "current_gap": 3,
+      "current_gap": 4,
       "avg_gap": 5.8,
       "max_gap": 22
     },
     {
       "num": "12",
-      "drag_count": 9,
+      "drag_count": 12,
       "count_30": 7,
-      "current_gap": 3,
+      "current_gap": 4,
       "avg_gap": 5.2,
       "max_gap": 29
     },
     {
       "num": "13",
-      "drag_count": 10,
-      "count_30": 3,
-      "current_gap": 4,
-      "avg_gap": 7.5,
+      "drag_count": 5,
+      "count_30": 4,
+      "current_gap": 0,
+      "avg_gap": 7.4,
       "max_gap": 32
     },
     {
       "num": "14",
-      "drag_count": 12,
+      "drag_count": 11,
       "count_30": 2,
-      "current_gap": 9,
+      "current_gap": 10,
       "avg_gap": 6.6,
       "max_gap": 53
     },
     {
       "num": "15",
-      "drag_count": 5,
+      "drag_count": 4,
       "count_30": 3,
-      "current_gap": 6,
+      "current_gap": 7,
       "avg_gap": 7.5,
       "max_gap": 44
     },
     {
       "num": "16",
-      "drag_count": 7,
+      "drag_count": 8,
       "count_30": 1,
-      "current_gap": 16,
+      "current_gap": 17,
       "avg_gap": 7.7,
       "max_gap": 34
     },
     {
       "num": "17",
-      "drag_count": 7,
+      "drag_count": 6,
       "count_30": 4,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 8.4,
       "max_gap": 57
     },
     {
       "num": "18",
-      "drag_count": 9,
+      "drag_count": 8,
       "count_30": 3,
-      "current_gap": 15,
+      "current_gap": 16,
       "avg_gap": 7.2,
       "max_gap": 35
     },
     {
       "num": "19",
-      "drag_count": 4,
+      "drag_count": 8,
       "count_30": 5,
-      "current_gap": 4,
+      "current_gap": 5,
       "avg_gap": 6.7,
       "max_gap": 47
     },
     {
       "num": "20",
-      "drag_count": 8,
-      "count_30": 2,
+      "drag_count": 7,
+      "count_30": 3,
       "current_gap": 0,
-      "avg_gap": 8.4,
+      "avg_gap": 8.3,
       "max_gap": 45
     },
     {
       "num": "21",
-      "drag_count": 2,
+      "drag_count": 7,
       "count_30": 1,
-      "current_gap": 23,
+      "current_gap": 24,
       "avg_gap": 6.3,
       "max_gap": 41
     },
     {
       "num": "22",
-      "drag_count": 3,
+      "drag_count": 6,
       "count_30": 3,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 6.8,
       "max_gap": 32
     },
     {
       "num": "23",
-      "drag_count": 9,
+      "drag_count": 5,
       "count_30": 7,
-      "current_gap": 5,
+      "current_gap": 6,
       "avg_gap": 6.3,
       "max_gap": 25
     },
     {
       "num": "24",
-      "drag_count": 7,
+      "drag_count": 8,
       "count_30": 3,
-      "current_gap": 2,
+      "current_gap": 3,
       "avg_gap": 6.1,
       "max_gap": 22
     },
     {
       "num": "25",
-      "drag_count": 10,
+      "drag_count": 4,
       "count_30": 5,
-      "current_gap": 7,
+      "current_gap": 8,
       "avg_gap": 6.0,
       "max_gap": 35
     },
@@ -600,31 +620,31 @@
       "num": "26",
       "drag_count": 6,
       "count_30": 3,
-      "current_gap": 5,
+      "current_gap": 6,
       "avg_gap": 7.0,
       "max_gap": 31
     },
     {
       "num": "27",
-      "drag_count": 10,
+      "drag_count": 7,
       "count_30": 3,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 5.7,
       "max_gap": 26
     },
     {
       "num": "28",
       "drag_count": 7,
-      "count_30": 3,
-      "current_gap": 10,
+      "count_30": 2,
+      "current_gap": 11,
       "avg_gap": 6.4,
       "max_gap": 24
     },
     {
       "num": "29",
-      "drag_count": 5,
+      "drag_count": 10,
       "count_30": 5,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.0,
       "max_gap": 34
     },
@@ -632,86 +652,86 @@
       "num": "30",
       "drag_count": 5,
       "count_30": 7,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 7.9,
       "max_gap": 43
     },
     {
       "num": "31",
-      "drag_count": 6,
-      "count_30": 2,
-      "current_gap": 5,
+      "drag_count": 9,
+      "count_30": 3,
+      "current_gap": 0,
       "avg_gap": 6.0,
       "max_gap": 24
     },
     {
       "num": "32",
-      "drag_count": 4,
+      "drag_count": 7,
       "count_30": 3,
-      "current_gap": 6,
+      "current_gap": 7,
       "avg_gap": 7.7,
       "max_gap": 40
     },
     {
       "num": "33",
-      "drag_count": 3,
+      "drag_count": 11,
       "count_30": 3,
-      "current_gap": 18,
+      "current_gap": 19,
       "avg_gap": 9.3,
       "max_gap": 42
     },
     {
       "num": "34",
       "drag_count": 10,
-      "count_30": 6,
-      "current_gap": 2,
+      "count_30": 7,
+      "current_gap": 0,
       "avg_gap": 6.8,
       "max_gap": 33
     },
     {
       "num": "35",
-      "drag_count": 7,
+      "drag_count": 9,
       "count_30": 5,
-      "current_gap": 1,
+      "current_gap": 2,
       "avg_gap": 6.4,
       "max_gap": 32
     },
     {
       "num": "36",
-      "drag_count": 5,
+      "drag_count": 10,
       "count_30": 1,
-      "current_gap": 20,
+      "current_gap": 21,
       "avg_gap": 6.4,
       "max_gap": 35
     },
     {
       "num": "37",
-      "drag_count": 3,
+      "drag_count": 5,
       "count_30": 0,
-      "current_gap": 31,
+      "current_gap": 32,
       "avg_gap": 7.2,
       "max_gap": 33
     },
     {
       "num": "38",
-      "drag_count": 6,
+      "drag_count": 12,
       "count_30": 6,
-      "current_gap": 0,
+      "current_gap": 1,
       "avg_gap": 6.7,
       "max_gap": 32
     },
     {
       "num": "39",
       "drag_count": 8,
-      "count_30": 3,
-      "current_gap": 6,
+      "count_30": 2,
+      "current_gap": 7,
       "avg_gap": 8.4,
       "max_gap": 46
     }
   ],
   "backtest": {
     "strategy_A": {
-      "avg": 0.6,
+      "avg": 0.63,
       "rates": [
         {
           "stars": 0,
@@ -720,13 +740,13 @@
         },
         {
           "stars": 1,
-          "pct": 46.7,
-          "count": 14
+          "pct": 43.3,
+          "count": 13
         },
         {
           "stars": 2,
-          "pct": 6.7,
-          "count": 2
+          "pct": 10.0,
+          "count": 3
         },
         {
           "stars": 3,
